@@ -80,12 +80,12 @@ void CalculateSalePrice(vector<OrderItem>& order, vector<beverageitem>& beverage
 		messageprice = "訂購500元以上者打8折";
 	}
 	else if (totalprice >= 300) {
-		saleprice = totalprice * 0.9;
-		messageprice = "訂購300元以上者打9折";
+		saleprice = totalprice * 0.85;
+		messageprice = "訂購300元以上者打85折";
 	}
 	else if (totalprice >= 200) {
-		saleprice = totalprice * 0.95;
-		messageprice = "訂購200元以上者打95折";
+		saleprice = totalprice * 0.9;
+		messageprice = "訂購200元以上者打9折";
 	}
 	else {
 		saleprice = totalprice;
